@@ -1,0 +1,23 @@
+{
+  "name": "nest_prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Vinicius Oliver",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "prisma": "^5.3.0",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "sucrase": "^3.34.0"
+  }
+}
